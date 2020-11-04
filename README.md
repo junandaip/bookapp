@@ -7,13 +7,13 @@ Program ini akan menampilkan data buku sesuai id yang dicantumkan.
 
 Apabila Id tidak ditemukan maka program akan menampilkan status 404 dan pesan error.  
 
-    `//routes/web.php`  
+    //routes/web.php
     
     $router->get('/books/{id}', 'BooksController@showId');
 
 Syntax di atas berfungsi untuk mengambil parameter inputan user yang lalu diproses di dalam controller BooksController dengan fungsi showId.
 
-    `//BooksController.php`
+    //BooksController.php
     
     public function showId($id){
         if ($id <= 2 and $id >= 1){
