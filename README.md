@@ -3,8 +3,8 @@
 **NIM : 185150701111012**  
 ## BUILD ENVIRONMENT
 [Lumen 8.x](https://lumen.laravel.com/docs/8.x#installation)  
-[Composer](https://getcomposer.org/download/)
-
+[Composer](https://getcomposer.org/download/)  
+[PHP 7.6](https://www.php.net/downloads.php)  
 ## Description  
 Program ini berisi dua tabel yaitu Authors dan Books dengan perintah yang dapat dijalankan seperti:  
 - GET  
